@@ -20,7 +20,7 @@ for i in range(1,n):
 for i in range(n):
 	print(x[i], y[i])
 
-plt.plot(x,y, "o")
+plt.plot(x,y, linestyle="-", marker = "o")
 plt.xlabel("Value of x")
 plt.ylabel("Value of y")
 plt.title("Euler's Method h = " + str(h))
